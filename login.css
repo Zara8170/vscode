@@ -1,0 +1,45 @@
+label,
+.email,
+.pw {
+    display: block;
+}
+.login_tab {
+    width: 440px;
+    padding: 0 20px;
+}
+input[type=text] {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 397px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #D8D5DB;
+}
+input[type=text]::placeholder {
+    font-size: 14px;
+    color: #d3d3d3;
+}
+button.login {
+    display: block;
+    width: 400px;
+    height: 53px;
+    text-align: center;
+    background: #4286DE;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    border: none;
+    font-size: 16px;
+}
+ul {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+ul li a {
+    display: block;
+    color: #616161;
+    font-size: 18px;
+    font-weight: 700;
+}

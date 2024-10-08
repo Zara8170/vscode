@@ -1,0 +1,118 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+* {
+    font-family: Pretendard;
+}
+
+div.join {
+    width: 440px;
+    height: 800px;
+}
+div.title {
+    width: 440px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 19px;
+    font-weight: 500;
+}
+form#personal-number {
+    width: 400px;
+    height: 59px;
+    margin: 31px 20px 430px;
+    background: #f6f6f6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 349px;
+    height: 43px;
+}
+li.code {
+    display: flex;
+}
+li.code img {
+    width: 32px;
+    height: 26px;
+}
+span.code {
+    padding: 0 12px;
+    position: relative;
+    font-size: 19px;
+    font-weight: 700;   
+}
+span.code::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 16px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+li.number {
+    width: 233px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+}
+input[type=tel] {
+    border: none;
+    width: 152px;
+    height: 23px;
+    background: none;
+    margin-left: 20px;
+    font-size: 19px;
+    font-weight: 700;
+}
+input[type=tel]::placeholder {
+    color: #c8c8c8;
+    font-size: 19px;
+    font-weight: 700;
+}
+input[type=tel]:focus {
+    outline: none;
+    font-size: 19px;
+    font-weight: 700;
+}
+form#request {
+    text-align: center;
+}
+a.login {
+    display: block;
+    text-decoration: underline;
+    font-size: 14px;
+    color: #868686;
+}
+div.terms-check {
+    margin: 29px 0 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+}
+input[type=checkbox]{
+    width: 29px;
+    height: 29px;
+    background-color: #dcdcdd;
+}
+input[type=submit]{
+    border: none;
+    width: 400px;
+    height: 53px;
+    background: #d8d8d8;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #676767;
+    cursor: pointer;
+}
